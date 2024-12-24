@@ -112,33 +112,35 @@
     </header>
     <!-- Main Part -->
     <main class="mt-28 bg-[#F7F8F8] border-t-2 border-[#1DD100] rounded-t-2xl">
-        <section class=" mx-[135px]">
+
+        <!-- Paribahan Information -->
+        <section class=" mx-[140px]">
             <div class="flex flex-col justify-center items-center mt-28">
                 <h1 class="font-raleway text-black text-[40px] font-bold">P.H Paribahan</h1>
                 <p class="text-gray-500 font-inter text-[18px] font-normal px-40">Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined .</p>
             </div>
             <!-- Info Details -->
-            <div class="flex justify-between bg-white">
-                <div class="p">
+            <div class="flex w-full bg-white mt-12 rounded-3xl">
+                <div class="p-8 w-3/4">
 
 
-                    <div class="flex justify-between">
-                        <div class="flex justify-normal">
+                    <div class="flex justify-between ">
+                        <div class="flex justify-normal space-x-4 items-center">
                             <div>
                                 <img src="images/bus-logo.png" alt="">
                             </div>
                             <div>
-                                <h1>Greenline Paribahan</h1>
-                                <p>Coach-009-WEB ! AC_Business</p>
+                                <h1 class="text-black font-raleway text-[32px] font-bold">Greenline Paribahan</h1>
+                                <p class="text-gray-400 font-inter text-[18px] font-normal">Coach-009-WEB ! AC_Business</p>
                             </div>
                         </div>
-                        <div class="flex justify-normal">
-                            <img src="images/seat-green-filled.png" alt="">
-                            <p>40 Seats left</p>
+                        <div class="flex justify-center items-center space-x-1 bg-green-100 rounded-xl">
+                            <img class="pl-[15px]" src="images/seat-green-filled.png" alt="">
+                            <p class="font-inter text-[#1DD100] text-[18px] font-medium pr-[15px]">40 Seats left</p>
                         </div>
                     </div>
                     <!-- Route Details -->
-                    <div class="bg-[#F7F8F8] rounded-3xl space-y-14 p-8">
+                    <div class="bg-[#F7F8F8] rounded-3xl space-y-14 p-8 mt-6 ">
                         <div class="flex justify-between">
                             <h1 class="font-relaway text-[18px] font-semibold">Route</h1>
                             <p class="text-black text-[18px] font-semibold">Dhaka - Sylhet</p>
@@ -148,8 +150,9 @@
                             <h1 class="font-relaway text-[18px] font-semibold"> Depature Time</h1>
                             <p class="text-black text-[18px] font-semibold">9:00 PM</p>
                         </div>
+                    
 
-                        <div class="flex justify-between space-x-6">
+                        <div class="flex justify-between space-x-4 ">
                             <p class="text-gray-950 font-inter text-[16px] font-medium p-[18px] rounded-xl bg-gray-200">Boarding Point - Laxmipur</p>
                             <p class="text-gray-950 font-inter text-[16px] font-medium p-[18px] rounded-xl bg-gray-200">Dropping Point - Bogura</p>
                             <p class="text-gray-950 font-inter text-[16px] font-medium p-[18px] rounded-xl bg-gray-200">Est. Time - 11 Hour</p>
@@ -160,13 +163,108 @@
                 </div>
                 <img src="images/info-devider.png" alt="">
                 <!-- Per seat price -->
-                <div>
+                <div class="w-1/4 flex flex-col justify-center items-center">
                      <img src="images/fare.png" alt="">
-                     <h1>550 Taka</h1>
-                     <p>Per Seat</p>
+                     <h1 class="font-raleway text-black text-[32px] font-bold">550 Taka</h1>
+                     <p class="font-raleway text-gray-500 text-[24px] font-semibold">Per Seat</p>
                 </div>
             </div>
             
+        </section>
+
+        <!-- Seat list -->
+        <section class="mx-[140px] mt-7 bg-white flex justify-between pl-8">
+            <!-- Available Seat -->
+            <div>
+                <h1>Select Your Seat</h1>
+                <div class="flex justify-between">
+                    <div class="flex justify-normal">
+                        <img src="images/seat-gray.png" alt="">
+                        <span>Available</span>
+                    </div>
+                    <div class="flex justify-normal">
+                        <img src="images/seat-green-filled.png" alt="">
+                        <span>Selected</span>
+                    </div>
+                </div>
+
+                <div class="flex justify-end">
+                    <img class="bg-gray-200 px-6 py-3 rounded-xl" src="images/tabler-icon-steering-wheel.png" alt="">
+                </div>
+
+                <div class="flex justify-between ">
+                    <!-- row 1 -->
+                    <div class="grid grid-rows-10 grid-flow-col ">
+                        <div class="px-[19px] py-[15px] text-center">A</div>
+                        <div class="px-[19px] py-[15px] text-center">B</div>
+                        <div class="px-[19px] py-[15px] text-center">C</div>
+                        <div class="px-[19px] py-[15px] text-center">D</div>
+                        <div class="px-[19px] py-[15px] text-center">E</div>
+                        <div class="px-[19px] py-[15px] text-center">F</div>
+                        <div class="px-[19px] py-[15px] text-center">G</div>
+                        <div class="px-[19px] py-[15px] text-center">H</div>
+                        <div class="px-[19px] py-[15px] text-center">I</div>
+                        <div class="px-[19px] py-[15px] text-center">J</div>
+                    </div>
+
+                    <!-- row 2 & 3 -->
+
+                    <div class="grid grid-rows-10 grid-flow-col gap-x-8 gap-y-6 mr-14">
+
+                        <div class="bg-[#F7F8F8] rounded-xl px-[19px] py-[15px] text-center">A1</div>
+                        <div class="bg-[#F7F8F8] rounded-xl px-[19px] py-[15px] text-center">B1</div>
+                        <div class="bg-[#F7F8F8] rounded-xl px-[19px] py-[15px] text-center">C1</div>
+                        <div class="bg-[#F7F8F8] rounded-xl px-[19px] py-[15px] text-center">D1</div>
+                        <div class="bg-[#F7F8F8] rounded-xl px-[19px] py-[15px] text-center">E1</div>
+                        <div class="bg-[#F7F8F8] rounded-xl px-[19px] py-[15px] text-center">F1</div>
+                        <div class="bg-[#F7F8F8] rounded-xl px-[19px] py-[15px] text-center">G1</div>
+                        <div class="bg-[#F7F8F8] rounded-xl px-[19px] py-[15px] text-center">H1</div>
+                        <div class="bg-[#F7F8F8] rounded-xl px-[19px] py-[15px] text-center">I1</div>
+                        <div class="bg-[#F7F8F8] rounded-xl px-[19px] py-[15px] text-center">J1</div>
+                        <div class="bg-[#F7F8F8] rounded-xl px-[19px] py-[15px] text-center">A2</div>
+                        <div class="bg-[#F7F8F8] rounded-xl px-[19px] py-[15px] text-center">B2</div>
+                        <div class="bg-[#F7F8F8] rounded-xl px-[19px] py-[15px] text-center">C2</div>
+                        <div class="bg-[#F7F8F8] rounded-xl px-[19px] py-[15px] text-center">D2</div>
+                        <div class="bg-[#F7F8F8] rounded-xl px-[19px] py-[15px] text-center">E2</div>
+                        <div class="bg-[#F7F8F8] rounded-xl px-[19px] py-[15px] text-center">F2</div>
+                        <div class="bg-[#F7F8F8] rounded-xl px-[19px] py-[15px] text-center">G2</div>
+                        <div class="bg-[#F7F8F8] rounded-xl px-[19px] py-[15px] text-center">H2</div>
+                        <div class="bg-[#F7F8F8] rounded-xl px-[19px] py-[15px] text-center">I2</div>
+                        <div class="bg-[#F7F8F8] rounded-xl px-[19px] py-[15px] text-center">J2</div>
+                    </div>
+
+                    <!-- row 4 & 5 -->
+
+                    <div class="grid grid-rows-10 grid-flow-col gap-x-8 gap-y-6">
+
+                        <div class="bg-[#F7F8F8] rounded-xl px-[19px] py-[15px] text-center">A3</div>
+                        <div class="bg-[#F7F8F8] rounded-xl px-[19px] py-[15px] text-center">B3</div>
+                        <div class="bg-[#F7F8F8] rounded-xl px-[19px] py-[15px] text-center">C3</div>
+                        <div class="bg-[#F7F8F8] rounded-xl px-[19px] py-[15px] text-center">D3</div>
+                        <div class="bg-[#F7F8F8] rounded-xl px-[19px] py-[15px] text-center">E3</div>
+                        <div class="bg-[#F7F8F8] rounded-xl px-[19px] py-[15px] text-center">F3</div>
+                        <div class="bg-[#F7F8F8] rounded-xl px-[19px] py-[15px] text-center">G3</div>
+                        <div class="bg-[#F7F8F8] rounded-xl px-[19px] py-[15px] text-center">H3</div>
+                        <div class="bg-[#F7F8F8] rounded-xl px-[19px] py-[15px] text-center">I3</div>
+                        <div class="bg-[#F7F8F8] rounded-xl px-[19px] py-[15px] text-center">J3</div>
+                        <div class="bg-[#F7F8F8] rounded-xl px-[19px] py-[15px] text-center">A4</div>
+                        <div class="bg-[#F7F8F8] rounded-xl px-[19px] py-[15px] text-center">B4</div>
+                        <div class="bg-[#F7F8F8] rounded-xl px-[19px] py-[15px] text-center">C4</div>
+                        <div class="bg-[#F7F8F8] rounded-xl px-[19px] py-[15px] text-center">D4</div>
+                        <div class="bg-[#F7F8F8] rounded-xl px-[19px] py-[15px] text-center">E4</div>
+                        <div class="bg-[#F7F8F8] rounded-xl px-[19px] py-[15px] text-center">F4</div>
+                        <div class="bg-[#F7F8F8] rounded-xl px-[19px] py-[15px] text-center">G4</div>
+                        <div class="bg-[#F7F8F8] rounded-xl px-[19px] py-[15px] text-center">H4</div>
+                        <div class="bg-[#F7F8F8] rounded-xl px-[19px] py-[15px] text-center">I4</div>
+                        <div class="bg-[#F7F8F8] rounded-xl px-[19px] py-[15px] text-center">J4</div>
+                    </div>          
+                </div>
+            </div>
+
+            <!-- Invoice Details -->
+            <div>
+
+            </div>
         </section>
     </main>
     <!-- Footer Part -->
