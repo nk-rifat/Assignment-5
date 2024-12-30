@@ -1,5 +1,5 @@
 function moveHeaderToSection(){
-    hideElementById('hide1');
+    hideElementById('header-section');
     hideElementById('hide2');
     hideElementById('success-section');
 }
